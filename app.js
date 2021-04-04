@@ -1,7 +1,11 @@
+// Declaring api information
 const api = {
     apiKey: '2f7dc9aa4ed4eaec932e99724f9cd6a1',
     url: 'api.openweathermap.org/data/2.5/'
 }
+
+// Fetching button, input and diffrent h1 tags
+
 const btn = document.getElementById('btn');
 const input = document.getElementById('input');
 const ul = document.querySelector('ul');
@@ -12,12 +16,19 @@ const h4 = document.querySelector('h4');
 const img = document.querySelector('img');
 const p = document.querySelector('p');
 
+// Adding event listners to button
+
 btn.addEventListener('click', ajaxFun);
+
+// Adding event listners for enter key
+
 input.addEventListener('keypress',function (e) {
     if (e.keyCode === 13) {
         ajaxFun();
     }
 });
+
+// Declaring ajaxFun function
 
 function ajaxFun() {
     let cityName = input.value;
@@ -40,6 +51,8 @@ function ajaxFun() {
             console.log(err);
         });
 }
+
+// Declaring ajaxFun function
 
 function currentDate() {
     var WeekDay = new Date;
