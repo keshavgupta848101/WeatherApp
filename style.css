@@ -80,7 +80,8 @@ button:hover {
     text-align: center;
 }
 #heading{
-  font-size: 2rem;
+  font-size: 3rem;
+  color: black;
 }
 h1{
     margin-top: 20px;
