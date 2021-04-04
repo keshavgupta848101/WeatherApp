@@ -6,6 +6,7 @@
   letter-spacing: 1px;
 
 }
+/* css for body*/
 body {
   
   background-image: url("https://images.unsplash.com/photo-1615752593047-30aa95f03882?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
@@ -16,6 +17,8 @@ body {
   height: 100vh;
   
 }
+/* css for section */
+
 section {
   margin: 50px auto;
   width: 30%;
@@ -30,6 +33,7 @@ section {
   text-align: center;
 
 }
+/* css for inputbox*/
 input {
   margin: 12px auto;
   width: 95%;
@@ -37,6 +41,7 @@ input {
   border-radius: 16px 0px 16px 0px;
 
 }
+/* css for button*/
 
 button {
     background: #246896;
@@ -68,12 +73,15 @@ button:hover {
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
   }
+/* css for Text tags*/
 
 #data{
     width: 100%;
     text-align: center;
 }
-
+#heading{
+  font-size: 2rem;
+}
 h1{
     margin-top: 20px;
     font-size: 7rem;
@@ -81,6 +89,7 @@ h1{
 h2{
     margin-bottom: 5px;
 }
+/* css for media query*/
 @media only screen and (max-width: 600px) {
     section{
         width: 90%;
